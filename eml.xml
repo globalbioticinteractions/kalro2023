@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ns0:eml xmlns:ns0="https://eml.ecoinformatics.org/eml-2.2.0" packageId="" system="" scope="system" xml:lang="eng">
-  <dataset xmlns:ns2="https://eml.ecoinformatics.org/dataset-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" scope="document" xsi:type="ns2:dataset">
+  <dataset xmlns:ns2="https://eml.ecoinformatics.org/dataset-2.2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" scope="document" xsi:type="ns2:dataset">
     <title>A review of the status of web-based African Plant-Pollinator Interaction data</title>
     <creator scope="document">
       <individualName>
@@ -63,9 +64,9 @@
         <objectName>https://docs.google.com/spreadsheets/d/1Fj9KBgO4vepzNWfbei3OgqiwJIITkLvx</objectName>
         <dataFormat>
           <textFormat>
-            <numHeaderLines>6</numHeaderLines>
+            <numHeaderLines>1</numHeaderLines>
             <simpleDelimited>
-              <fieldDelimiter>	</fieldDelimiter>
+              <fieldDelimiter>\t</fieldDelimiter>
             </simpleDelimited>
           </textFormat>
         </dataFormat>
