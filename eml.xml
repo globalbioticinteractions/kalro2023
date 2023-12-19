@@ -77,6 +77,11 @@
         </distribution>
       </physical>
       <attributeList>
+        <attribute id="sourceTaxonName" scope="document">
+          <attributeName>sourceTaxonName</attributeName>
+          <attributeDefinition>http://rs.tdwg.org/dwc/terms/lifeStage</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+        </attribute>
         <attribute id="sourceLifeStageName" scope="document">
           <attributeName>sourceLifeStageName</attributeName>
           <attributeDefinition>http://rs.tdwg.org/dwc/terms/lifeStage</attributeDefinition>
